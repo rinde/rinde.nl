@@ -4,8 +4,8 @@ bio:                'Software engineer & computer scientist'
 description:        "Moon is a minimal, dsf one column jekyll theme for your blog."
 reading_time:       false
 words_per_minute:   200
-logo:               'assets/img/profile2-closeup.JPG'
-background:         'assets/img/bg.JPG'
+logo:               'assets/img/profile2-closeup.jpg'
+background:         'assets/img/bg.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                http://rinde.nl
