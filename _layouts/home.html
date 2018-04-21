@@ -10,37 +10,33 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    <!-- {% include nav.html %} 
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <!-- <a href="{{ site.url }}"> -->
-                        <!-- <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn"> -->
-                        <img src="{{ site.logo }}" class="img-circle zoombtn">
-                    <!-- </a> -->
-                    <h3 class="title">
-                        <!-- <a class="zoombtn" href="{{ site.url }}"> -->
-                        	<p style="font-size:2rem;font-weight:300">Rinde R.S. <b>van Lon</b>, PhD</p>
-			            <!-- </a> -->
-                    </h3>
-                    <hr class="hr-line">
-                    <h3 class="title">
-                        <!-- <a href="{{ site.url }}"> -->
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-			            <!-- </a> -->
-                    </h3>
-                    {% include social-links.html %}
-                 <!--  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
-                         About
+                <table>
+                    <td><img src="{{ site.logo }}" class="img-circle zoombtn"></td>
+                    <td><p>
+                        <h3 class="title" style="font-size:2rem;font-weight:100;color:#686868">
+                            Rinde R.S. <b style="font-weight:700;color:#333333">van Lon</b>
+                        </h3>
+                        <h4 class="title" style="font-size:1rem;font-weight:300;color:#30AD63;font:'Source Sans Pro';font-variant: small-caps">
+                            {{ site.bio }}
+                        </h4>
+                        <p/><p/>
+                        {% include social-links.html %}
+                    </p></td>
+                </table>
+                   <!--  <hr class="hr-line">
+                    <p/> -->
+                    
+                  <!-- <hr class="hr-line"> -->
+                 <!--  <h3 class="title">
+                         <a class="btn zoombtn" href="{{ site.url }}/software">
+                         Software
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
-                         Posts
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
+                         <a class="btn zoombtn" href="{{ site.url }}/science">
+                         Science
                          </a>
                  </h3> -->
             </div>

@@ -13,6 +13,7 @@
 	}
 }
 .social-btn {
+  border: 0px solid;
 	padding: 1px;
 	margin: 1px;
 	@extend %btnextend;
@@ -72,7 +73,7 @@
     }
 }
 .title .btn {
-    margin: 10px;
+    margin: 0px;
     @include font-rem(16);
     font-weight:300;
 }
