@@ -8,7 +8,7 @@ logo:               'assets/img/profile2-closeup.jpg'
 background:         'assets/img/bg.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                
+url:                https://rinde.nl
 # url: http://127.0.0.1:4000
 
 # Jekyll
@@ -74,4 +74,4 @@ jekyll-mentions:
     base_url: https://github.com
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, rinde.nl.sublime-project, run.sh]
