@@ -1,14 +1,14 @@
 # Site
 title:              Rinde R.S. van Lon, PhD
 bio:                'software engineer · computer scientist'
-description:        "Moon is a minimal, dsf one column jekyll theme for your blog."
+description:        ""
 reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/profile2-closeup.jpg'
 background:         'assets/img/bg.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                rinde.nl
+url:                
 # url: http://127.0.0.1:4000
 
 # Jekyll
