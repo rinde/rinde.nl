@@ -26,8 +26,10 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
           <div className="w-24 sm:w-32 md:w-48 h-24 md:h-48 sm:h-32 rounded-full overflow-hidden self-center m-5 shadow-lg">
             <img className="object-contain" src="./rinde-headshot.jpg" />
           </div>
-          <div className="md:mt-10">
-            <div className="font-bold uppercase pb-2">Experience - highlights</div>
+          <div className="md:mt-5">
+            <div className="font-bold uppercase pb-2 text-sm md:text-base">
+              Experience - highlights
+            </div>
 
             <ul className="list-disc list-outside text-sm pl-5">
               <li className="mb-3">2019-present - Founder, PlanRising</li>
