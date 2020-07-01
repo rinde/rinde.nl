@@ -6,22 +6,22 @@ import { faGithub, faLinkedin, faStackOverflow } from "@fortawesome/free-brands-
 import Head from "next/head";
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
-  <div className="w-full flex justify-center">
+  <div className=" flex justify-center">
     <Head>
       <title>Rinde van Lon</title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
     </Head>
-    <div className="flex-none flex flex-grow-0 justify-top flex-col flex-wrap m-8 max-w-4xl rounded overflow-hidden bg-gray-100 shadow-lg">
-      <div className="bg-indigo-600 text-yellow-100 w-full text-center px-12 pb-10 pt-10 flex flex-wrap flex-col flex-grow-0 tracking-wider">
-        <div className="text-6xl font-bold uppercase">Rinde van Lon, PhD</div>
-        <div className="text-xl uppercase flex flex-col tracking-widest">
+    <div className=" flex  justify-top flex-col  md:m-8 max-w-4xl rounded overflow-hidden bg-gray-100 shadow-lg">
+      <div className="bg-indigo-600 text-yellow-100 w-full text-center px-2 md:px-12 pb-4 md:pb-10 pt-4 md:pt-10 flex flex-wrap flex-col flex-grow-0 tracking-wider">
+        <div className="text-2xl md:text-6xl font-bold uppercase">Rinde van Lon, PhD</div>
+        <div className="text-sm md:text-xl uppercase flex flex-col tracking-widest">
           <div>Software Developer, Entrepreneur,</div>
           <div>Computer Scientist, Mentor</div>
         </div>
       </div>
       <div className="flex flex-row flex-grow w-full justify-center text-gray-900">
-        <div className="bg-indigo-300 w-1/3 pl-2 pr-2 py-2 flex flex-col">
-          <div className="w-48 h-48 rounded-full overflow-hidden self-center m-5 shadow-lg">
+        <div className="bg-indigo-300 w-1/3  p-1 md:p-2 flex flex-col">
+          <div className="w-24 md:w-48 h-24 md:h-48 rounded-full overflow-hidden self-center m-5 shadow-lg">
             <img className="object-contain" src="./rinde-headshot.jpg" />
           </div>
           <div className="mt-10">
@@ -40,8 +40,8 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
             </ul>
           </div>
         </div>
-        <div className="w-2/3 p-8 bg-yellow-100">
-          <div className="mb-5 tracking-wide">
+        <div className="w-2/3 p-1 md:p-8 bg-yellow-100">
+          <div className="mb-5 tracking-wide text-sm md:text-base">
             Rinde is a full-stack developer specializing in reliable, high-quality applications. He
             has robust software design and analytical skills, as demonstrated in his Ph.D. research
             on optimization and genetic programming. In the past few years, Rinde's been passionate
