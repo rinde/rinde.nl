@@ -3,9 +3,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedin, faStackOverflow } from "@fortawesome/free-brands-svg-icons";
+import Head from "next/head";
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
   <div className="w-full flex justify-center">
+    <Head>
+      <title>Rinde van Lon</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <div className="flex-none flex flex-grow-0 justify-top flex-col flex-wrap m-8 max-w-4xl rounded overflow-hidden bg-gray-100 shadow-lg">
       <div className="bg-indigo-600 text-yellow-100 w-full text-center px-12 pb-10 pt-10 flex flex-wrap flex-col flex-grow-0 tracking-wider">
         <div className="text-6xl font-bold uppercase">Rinde van Lon, PhD</div>
