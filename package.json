@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && next export -o docs && git checkout -- docs/.nojekyll",
+    "deploy": "rm -rf .next docs && next build && next export -o docs && git checkout -- docs/.nojekyll && git checkout -- docs/CNAME",
     "start": "next start"
   },
   "dependencies": {
