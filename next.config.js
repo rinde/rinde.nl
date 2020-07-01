@@ -4,5 +4,5 @@ module.exports = {
   exportPathMap: () => ({
     '/': { page: '/' },
   }),
-  assetPrefix: isProd ? '/rindevanlon.com' : '',
+  assetPrefix: isProd ? '' : '',
 }
