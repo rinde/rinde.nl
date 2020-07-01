@@ -8,7 +8,7 @@ import Head from "next/head";
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
   <div className=" flex justify-center">
     <Head>
-      <title>Rinde van Lon</title>
+      <title>Rinde van Lon, PhD</title>
       {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
     </Head>
     <div className=" flex  justify-top flex-col  max-w-4xl md:rounded overflow-hidden bg-gray-100 md:shadow-lg md:my-8">
