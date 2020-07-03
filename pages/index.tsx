@@ -65,14 +65,14 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
               <img className="object-contain" src="./rinde-headshot.jpg" />
             </div>
             <div className="md:mt-5">
-              <div className="font-bold uppercase pb-2 text-sm md:text-base">
+              <div className="font-bold uppercase pb-2 text-sm md:text-base ml-1">
                 Experience - highlights
               </div>
 
               <ul className="text-sm ml-1">
                 {arr.map((entry) => {
                   return (
-                    <li className="mb-3">
+                    <li className="mb-3" key={entry.from + "-" + entry.to}>
                       <div className="flex flex-col space-x-2 md:space-x-5">
                         <span className="font-bold flex-shrink-0">
                           {entry.from} - {entry.to}
