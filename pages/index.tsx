@@ -71,7 +71,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
               Offerings
             </div>
             <hr className="border-black mb-4" />
-            <div className="uppercase text-indigo-600">Code mentoring</div>
+            <div className="uppercase text-indigo-600 text-base font-medium">Code mentoring</div>
             <div className="">
               Are you looking for someone to help you grow as a software developer? You've found the
               right person! With over 17 years of programming experience and more than 6 years of
@@ -99,7 +99,9 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
               </a>
               .
             </div>
-            <div className="uppercase mt-5 text-indigo-600">Software consultancy / freelancing</div>
+            <div className="uppercase mt-5 text-indigo-600 text-base font-medium">
+              Software consultancy / freelancing
+            </div>
             <div className="text-sm">
               Do you need someone to build a REST backend for you? Need help with your AWS setup?
               Would you like a Shopify store? Are you in need of a (React) web application?
