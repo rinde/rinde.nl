@@ -31,21 +31,36 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
               Experience - highlights
             </div>
 
-            <ul className="list-disc list-outside text-sm pl-5">
-              <li className="mb-3">2019-present - Founder, PlanRising</li>
-              <li className="mb-3">2018-present - Freelancer, Toptal</li>
-              <li className="mb-3">2018-2019 - Lead developer, Chorefree, Canada</li>
-              <li className="mb-3">2010-2017 - Researcher, KU Leuven, Belgium</li>
-              <li className="mb-3">2008-2010 - MSc Computer Science, TU Delft, The Netherlands</li>
+            <ul className="  text-sm ">
               <li className="mb-3">
-                2004-2009 - Software engineer, Floorplanner.com, The Netherlands
+                <span className="font-bold">2019-present</span> Founder, PlanRising
               </li>
-              <li className="mb-3">2004-2008 - BSc Computer Science, TU Delft, The Netherlands</li>
+              <li className="mb-3">
+                <span className="font-bold">2018-present</span> Freelancer, Toptal
+              </li>
+              <li className="mb-3">
+                <span className="font-bold">2018-2019</span> Lead developer, Chorefree, Canada
+              </li>
+              <li className="mb-3">
+                <span className="font-bold">2010-2017</span> Researcher, KU Leuven, Belgium
+              </li>
+              <li className="mb-3">
+                <span className="font-bold">2008-2010</span> MSc Computer Science, TU Delft, The
+                Netherlands
+              </li>
+              <li className="mb-3">
+                <span className="font-bold">2004-2009</span> Software engineer, Floorplanner.com,
+                The Netherlands
+              </li>
+              <li className="mb-3">
+                <span className="font-bold">2004-2008</span> BSc Computer Science, TU Delft, The
+                Netherlands
+              </li>
             </ul>
           </div>
         </div>
-        <div className="w-2/3 p-2 sm:p-4 md:p-8 bg-gray-100 text-sm md:text-base">
-          <div className="mb-5 tracking-wide ">
+        <div className="w-2/3 p-2 sm:p-4 md:p-8 bg-gray-100 text-sm">
+          <div className="mb-5 tracking-wide italic">
             Rinde is a full-stack developer specializing in reliable, high-quality applications. He
             has robust software design and analytical skills, as demonstrated in his Ph.D. research
             on optimization and genetic programming. In the past few years, Rinde's been passionate
@@ -64,7 +79,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
               towards programming excellency.
               <p className="mt-2" />
               Services include:
-              <ul className="list-disc list-outside pl-5">
+              <ul className="list-circle list-outside pl-5">
                 <li>Code review</li>
                 <li>Pair programming</li>
                 <li>Debugging</li>
@@ -90,7 +105,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
               Would you like a Shopify store? Are you in need of a (React) web application?
               <p className="mt-2" />
               Experience includes:
-              <ul className="list-disc list-outside pl-5">
+              <ul className="list-circle list-outside pl-5">
                 <li>Languages: Java, TypeScript, JavaScript, Python, Rust, Dart, and R</li>
                 <li>AWS: DynamoDB, Lambda, API Gateway, Cognito, and CloudFront</li>
                 <li>Frameworks: Next.js, Tailwind CSS and Flutter</li>
