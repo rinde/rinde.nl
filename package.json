@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "deploy": "rm -rf .next docs && next build && next export -o docs && git checkout -- docs/.nojekyll && git checkout -- docs/CNAME && git add docs",
-    "start": "next start"
+    "build": "rm -rf .next docs && next build && next export -o docs && git checkout -- docs/.nojekyll && git checkout -- docs/CNAME && git add docs"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
