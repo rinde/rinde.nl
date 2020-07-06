@@ -72,17 +72,13 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
               <ul className="text-sm ml-1">
                 {arr.map((entry) => {
                   return (
-                    <li className="mb-3 whitespace-pre" key={entry.from + "-" + entry.to}>
+                    <li className="mb-3 whitespace-pre-wrap" key={entry.from + "-" + entry.to}>
                       <div className="flex flex-col space-x-2 md:space-x-5">
                         <span className="font-bold flex-shrink-0">
                           {entry.from} - {entry.to}
                         </span>
                         <div className="flex flex-row flex-wrap">
-                          <span className="flex">
-                            <span className="whitespace-normal">{entry.pos},</span>
-                            <span className="whitespace-pre"> </span>
-                          </span>
-                          {/* <span className="italic"> */}
+                          <span>{entry.pos}, </span>
                           <div>
                             <i>{entry.com}</i>
                             {entry.loc ? ", " : ""}
