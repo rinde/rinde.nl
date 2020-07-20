@@ -50,7 +50,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
         {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
       </Head>
       <div className=" flex  justify-top flex-col  max-w-4xl md:rounded overflow-hidden bg-gray-100 md:shadow-lg md:my-8">
-        <div className="bg-indigo-600 text-gray-100 w-full text-center px-2 md:px-12 pb-4 md:pb-10 pt-4 md:pt-10 flex flex-wrap flex-col flex-grow-0 tracking-wider">
+        <div className="bg-indigo-700 bg-gradient-b-indigo-500 text-gray-100 w-full text-center px-2 md:px-12 pb-4 md:pb-10 pt-4 md:pt-10 flex flex-wrap flex-col flex-grow-0 tracking-wider">
           <div className="text-2xl sm:text-4xl md:text-6xl font-bold uppercase">
             Rinde van Lon, PhD
           </div>

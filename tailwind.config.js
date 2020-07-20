@@ -1,3 +1,5 @@
+
+const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ['./pages/**/*.tsx'],
   theme: {
@@ -10,7 +12,16 @@ module.exports = {
       roman: 'upper-roman',
     },
     extend: {},
+    colors2: {
+      'red': colors.indigo[500],
+      'blue': '#00f',
+    },
+    linearGradientColors: theme => theme('colors'),
+    radialGradientColors: theme => theme('colors2'),
+    conicGradientColors: theme => theme('colors2'),
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
 }
