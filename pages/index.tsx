@@ -16,9 +16,10 @@ interface ResumeEntry {
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
   let arr: Array<ResumeEntry> = [
-    { from: "2019", to: "present", pos: "Founder", com: "PlanRising" },
+    { from: "2021", to: "present", pos: "Algorithm Engineer and Operations Research Expert", com: "MOIA", loc: "Hamburg, Germany" },
+    { from: "2020", to: "2020", pos: "Developer", com: "AT&T", loc: "Los Angeles, USA" },
     { from: "2018", to: "present", pos: "Freelancer", com: "Toptal" },
-    { from: "2018", to: "2019", pos: "Lead developer", com: "Chorefree", loc: "Canada" },
+    { from: "2018", to: "2019", pos: "Lead developer", com: "Chorefree", loc: "Vancouver, Canada" },
     { from: "2010", to: "2017", pos: "Researcher", com: "KU Leuven", loc: "Belgium" },
     {
       from: "2008",
@@ -55,8 +56,8 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
             Rinde van Lon, PhD
           </div>
           <div className="text-xs sm:text-sm md:text-xl uppercase flex flex-col tracking-widest">
-            <div>Software Developer, Entrepreneur,</div>
-            <div>Computer Scientist, Mentor</div>
+            <div>Software Developer,</div>
+            <div>AI, Optimization, Operations Research</div>
           </div>
         </div>
         <div className="flex flex-row flex-grow w-full justify-center text-gray-900">
@@ -101,21 +102,61 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
           </div>
           <div className="w-2/3 p-2 sm:p-4 md:p-8 bg-gray-100 text-sm">
             <div className="mb-5 tracking-wide italic">
-              Rinde is a full-stack developer specializing in reliable, high-quality applications.
+              Rinde is an algorithm engineer and operations research specialist. He has robust software
+              design and analytical skills, as demonstrated in his Ph.D. research on optimization
+              and genetic programming.
+
+              {/*Rinde is a full-stack developer specializing in reliable, high-quality applications.
               He has robust software design and analytical skills, as demonstrated in his Ph.D.
               research on optimization and genetic programming. In the past few years, Rinde's been
               passionate about developing serverless REST applications and mentoring other
-              programmers.
+              programmers.*/}
             </div>
             <div>
               <div className="uppercase text-lg font-bold divide-y-2 divide-gray-200 pb-2">
                 Offerings
               </div>
               <hr className="border-black mb-4" />
+
+              <div className="uppercase mt-5 text-indigo-600 text-base font-medium">
+                Software consultancy / freelancing
+              </div>
+              <div className="text-sm">
+                Are you in need of optimization expertise?
+                Do you need someone to build a REST backend for you? Need help with your AWS setup?
+                Would you like a Shopify store? Are you in need of a (React) web application?
+                <p className="mt-2" />
+                Experience includes:
+                <ul className="list-circle list-outside pl-5">
+                  <li>Languages: Rust, Java, TypeScript, JavaScript, Python, Dart, and R</li>
+                  <li>AWS: DynamoDB, Lambda, API Gateway, Cognito, and CloudFront</li>
+                  <li>Frameworks: Next.js, Tailwind CSS, and Flutter</li>
+                </ul>
+                <p className="mt-2" />
+                <FontAwesomeIcon icon={faEnvelope} swapOpacity /> Contact Rinde now to{" "}
+                <a
+                  className="underline text-indigo-600"
+                  target="_blank"
+                  href="mailto:rindevanlon@gmail.com"
+                >
+                  discuss your needs
+                </a>
+                , or view his{" "}
+                <a
+                  className="underline text-indigo-600"
+                  target="_blank"
+                  href="https://www.toptal.com/resume/rinde-van-lon"
+                >
+                  Toptal profile
+                </a>
+                .
+              </div>
+
+              <p className="mt-2" />
               <div className="uppercase text-indigo-600 text-base font-medium">Code mentoring</div>
               <div className="">
                 Are you looking for someone to help you grow as a software developer? You've found
-                the right person! With over 17 years of programming experience and more than 6 years
+                the right person! With over 19 years of programming experience and more than 6 years
                 of experience with teaching and guiding students, Rinde is well qualified to guide
                 you towards programming excellency.
                 <p className="mt-2" />
@@ -144,38 +185,7 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
                 </a>
                 .
               </div>
-              <div className="uppercase mt-5 text-indigo-600 text-base font-medium">
-                Software consultancy / freelancing
-              </div>
-              <div className="text-sm">
-                Do you need someone to build a REST backend for you? Need help with your AWS setup?
-                Would you like a Shopify store? Are you in need of a (React) web application?
-                <p className="mt-2" />
-                Experience includes:
-                <ul className="list-circle list-outside pl-5">
-                  <li>Languages: Java, TypeScript, JavaScript, Python, Rust, Dart, and R</li>
-                  <li>AWS: DynamoDB, Lambda, API Gateway, Cognito, and CloudFront</li>
-                  <li>Frameworks: Next.js, Tailwind CSS, and Flutter</li>
-                </ul>
-                <p className="mt-2" />
-                <FontAwesomeIcon icon={faEnvelope} swapOpacity /> Contact Rinde now to{" "}
-                <a
-                  className="underline text-indigo-600"
-                  target="_blank"
-                  href="mailto:rindevanlon@gmail.com"
-                >
-                  discuss your needs
-                </a>
-                , or view his{" "}
-                <a
-                  className="underline text-indigo-600"
-                  target="_blank"
-                  href="https://www.toptal.com/resume/rinde-van-lon"
-                >
-                  Toptal profile
-                </a>
-                .
-              </div>
+
             </div>
 
             <div className="uppercase text-lg font-bold divide-y-2 divide-gray-200 pt-4 pb-2">

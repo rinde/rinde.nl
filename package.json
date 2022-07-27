@@ -12,10 +12,10 @@
     "@fortawesome/free-regular-svg-icons": "^5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "next": "9.3.5",
+    "next": "^9.3.5",
     "postcss-easing-gradients": "^3.0.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "tailwindcss-gradients": "^3.0.0"
   },
   "devDependencies": {
