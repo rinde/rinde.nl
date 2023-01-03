@@ -24,28 +24,29 @@
                     <div class="font-bold uppercase pb-2 text-sm md:text-base ml-1">
                         Experience - highlights
                     </div>
-
                     <ul class="text-sm ml-1">
-{% set data = load_data(path="./resume.toml") -%}
-{%- for entry in data.entries -%}
-<li class="mb-3 whitespace-pre-wrap" {# key={ entry.from + "-" + entry.to} #} >
-<div class="flex flex-col space-x-2 md:space-x-5">
-<span class="font-bold flex-shrink-0">
-{{entry.from}} - {{entry.to}}
-</span>
-<div class="flex flex-row flex-wrap">
-<span>{{entry.pos}}, </span>
-{%- if entry.loc is defined -%}
-<div><i>{{entry.com}}</i>, </div>
-<div><span>{{entry.loc}}</span></div>
-{%- else -%}
-<div><i>{{entry.com}}</i></div>
-{% endif %}
-</div></div></li>
-{% endfor -%}
-</ul>
-</div>
-</div>
+                        {% set data = load_data(path="./resume.toml") -%}
+                        {%- for entry in data.entries -%}
+                            <li class="mb-3 " {# key={ entry.from + "-" + entry.to} #} >
+                                <div class="flex flex-col space-x-2 md:space-x-5">
+                                    <span class="font-bold flex-shrink-0">
+                                    {{entry.from}} - {{entry.to}}
+                                    </span>
+                                    <div class="flex flex-row flex-wrap">
+                                        <span class="whitespace-pre-wrap">{{entry.pos}}, </span>
+                                        {%- if entry.loc is defined -%}
+                                            <div class="whitespace-pre-wrap"><i>{{entry.com}}</i>, </div>
+                                            <div><span>{{entry.loc}}</span></div>
+                                        {%- else -%}
+                                            <div><i>{{entry.com}}</i></div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </li>
+                        {% endfor -%}
+                    </ul>
+                </div>
+            </div>
             <div class="w-2/3 p-2 sm:p-4 md:p-8 bg-gray-100 text-sm">
                 <div class="mb-5 tracking-wide italic">
                     Rinde is an algorithm engineer and operations research specialist. He has robust software
