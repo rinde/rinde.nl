@@ -1,1 +1,8 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+
+```
+npx tailwindcss -i ./styles/styles.css -o ./static/style.css --watch
+```
+
+```
+zola serve
+```
