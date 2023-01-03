@@ -1,6 +1,6 @@
 
 ```
-npx tailwindcss -i ./styles/styles.css -o ./public/index.css --watch
+npx tailwindcss -i ./styles/styles.css -o ./static/style.css --watch
 ```
 
 ```
