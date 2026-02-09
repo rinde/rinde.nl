@@ -3,6 +3,7 @@ publish:
     ddc build
     cp static/CNAME public/CNAME
     cp static/robots.txt public/robots.txt
+    cp static/.nojekyll public/.nojekyll
 
 install:
     curl --proto '=https' --tlsv1.2 -LsSf https://github.com/bearcove/dodeca/releases/latest/download/dodeca-installer.sh | sh
