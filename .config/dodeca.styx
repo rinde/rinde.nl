@@ -1,0 +1,14 @@
+content content
+output public
+
+link_check {
+    skip_domains (linkedin.com stackoverflow.com toptal.com)
+}
+
+stable_assets (
+    favicon.ico
+    favicon.png
+    robots.txt
+    CNAME
+    .nojekyll
+)
