@@ -1,5 +1,5 @@
 content content
-output public
+output docs
 
 link_check {
     skip_domains (linkedin.com stackoverflow.com toptal.com)
